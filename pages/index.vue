@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const posts = await queryCollection("blog").order("date", "DESC").all();
+const posts = await queryCollection("blog").order("createdAt", "DESC").all();
 </script>
 
 <template>
